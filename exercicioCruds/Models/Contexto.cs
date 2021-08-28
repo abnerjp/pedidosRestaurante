@@ -23,5 +23,7 @@ namespace exercicioCruds.Models
 
         public DbSet<Restaurante> Restaurantes { get; set; }
 
+        public DbSet<Pedido> Pedidos { get; set; }
+
     }
 }
